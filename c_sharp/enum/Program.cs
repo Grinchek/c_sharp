@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Linq;
 
 namespace _c_sharp_
 {
@@ -64,43 +65,114 @@ namespace _c_sharp_
             //    Console.WriteLine();
             //}
             #endregion
-            // # 1 
-            int[] arr = new int[10];
+
             Random random = new Random();
-            int iven = 0;
-            int odd = 0;
-            int uniq = 0;
-            for (int i = 0; i < arr.Length; i++)
+            // # 1 
+            //int[] arr = new int[10];
+            //int iven = 0;
+            //int odd = 0;
+            //int uniq = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = random.Next(10);
+            //}
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] % 2 == 0)
+            //    {
+            //        iven++;
+            //    }
+            //    else
+            //    {
+            //        odd++;
+            //    }
+            //}
+            //    for (int i = 0; i < arr.Length; i++)
+            //    {
+            //    int counter = 0;
+            //    for (int j = 0; j < arr.Length; j++)
+            //    {
+            //        if (i!=j&&arr[i] == arr[j])
+            //        {
+            //            counter++;
+
+            //        }
+
+            //    }
+            //    if (counter == 0)
+            //    {
+            //        uniq++;
+            //    }
+
+            //}
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine(arr[i]+" ");
+            //}
+            //Console.WriteLine("Even: "+iven);
+            //Console.WriteLine("Odd: "+odd);
+            //Console.WriteLine("Uniq: "+uniq);
+
+            // #2
+
+            //int[] arr = new int[10];
+            //int count = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    arr[i] = random.Next(10);
+            //}
+            //Console.Write(  "Enter wanted number: ");
+            //string st = Console.ReadLine();
+            //int num =int.Parse(st);
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] < num)
+            //    {
+            //        count++;
+            //    }
+            //}
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"[{arr[i]}]");
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine($"There are {count}, numbers, less than {num}");
+
+            // #3
+
+            double maximum = 0;
+            double minimum = 0;
+            double summa = 0;
+            double product = 0;
+            int pairAsumma = 0;
+            double oddBrowSumma = 0;
+            int[] A = new int[5];
+            double[,] B = new double[3, 4];
+            Console.WriteLine("Fill the array (5 integers)");
+            for (int i=0;i<A.Length;i++)
             {
-                arr[i] = random.Next(10);
+                string input = Console.ReadLine();
+                A[i]=int.Parse(input);
+
             }
-            int[] temp = arr;
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < A.Length; i++)
             {
-                if (arr[i] % 2 == 0)
-                {
-                    iven++;
-                }
-                else
-                {
-                    odd++;
-                }
+                Console.Write($"[{A[i]}]");
             }
-                for (int i = 0; i < arr.Length-1; i++)
+            Console.WriteLine("\n===============================");
+            for (int i = 0;i< B.GetLength(0);i++) {
+                for(int j=0;j<B.GetLength(1);j++)
                 {
-                if (arr[i] != temp[i + 1])
-                {
-                    uniq++;
+                    B[i,j] = random.Next(10)+ random.NextDouble();
+                    B[i, j]= Math.Round(B[i, j],2);
+                    Console.Write($"[{B[i,j]}]");
                 }
-               
-                }
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.WriteLine(arr[i]+" ");
+                Console.WriteLine();
             }
-            Console.WriteLine("Even: "+iven);
-            Console.WriteLine("Odd: "+odd);
-            Console.WriteLine("Uniq: "+uniq);
+            
+            Console.WriteLine($"");
+
+
         }
     }
 }
