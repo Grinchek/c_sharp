@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mka.STEP.010\\.nuget\\packages\\": {},
+    "C:\\Users\\dev\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\enum\\enum.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\enum\\enum.csproj",
       "projectName": "enum",
-      "projectPath": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\enum\\enum.csproj",
-      "packagesPath": "C:\\Users\\mka.STEP.010\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\enum\\obj\\",
+      "projectPath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\enum\\enum.csproj",
+      "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\enum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mka.STEP.010\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

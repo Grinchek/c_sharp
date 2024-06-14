@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj": {}
+    "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj": {
+    "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
         "projectName": "c_sharp_intro",
-        "projectPath": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
-        "packagesPath": "C:\\Users\\mka.STEP.010\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\obj\\",
+        "projectPath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
+        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\c_sharp_intro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mka.STEP.010\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
