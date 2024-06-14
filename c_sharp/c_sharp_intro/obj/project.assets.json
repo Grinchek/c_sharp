@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\mka.STEP.010\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\C_sharp\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
+      "projectUniqueName": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
       "projectName": "c_sharp_intro",
-      "projectPath": "C:\\Users\\User\\Desktop\\C_sharp\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\C_sharp\\c_sharp\\c_sharp_intro\\obj\\",
+      "projectPath": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\c_sharp_intro.csproj",
+      "packagesPath": "C:\\Users\\mka.STEP.010\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mka.STEP.010\\Desktop\\New folder (2)\\c_sharp\\c_sharp_intro\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mka.STEP.010\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,12 +62,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
