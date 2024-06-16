@@ -67,6 +67,7 @@ namespace _c_sharp_
             #endregion
 
             Random random = new Random();
+            #region 1
             // # 1 
             //int[] arr = new int[10];
             //int iven = 0;
@@ -112,6 +113,8 @@ namespace _c_sharp_
             //Console.WriteLine("Even: "+iven);
             //Console.WriteLine("Odd: "+odd);
             //Console.WriteLine("Uniq: "+uniq);
+            #endregion
+            #region 2
 
             // #2
 
@@ -137,41 +140,225 @@ namespace _c_sharp_
             //}
             //Console.WriteLine();
             //Console.WriteLine($"There are {count}, numbers, less than {num}");
+            #endregion
+            #region 3
 
             // #3
 
-            double maximum = 0;
-            double minimum = 0;
-            double summa = 0;
-            double product = 0;
-            int pairAsumma = 0;
-            double oddBrowSumma = 0;
-            int[] A = new int[5];
-            double[,] B = new double[3, 4];
-            Console.WriteLine("Fill the array (5 integers)");
-            for (int i=0;i<A.Length;i++)
-            {
-                string input = Console.ReadLine();
-                A[i]=int.Parse(input);
+            //double maximum, minimum, summa, product;
+            //double oddBrowSumma = 0;
+            //int pairAsumma = 0;
+            //int[] A = new int[5];
+            //int row = 3;
+            //int col = 4;
+            //double[,] B = new double[row, col];
+            //Console.WriteLine("Fill the array (5 integers)");
+            //for (int i=0;i<A.Length;i++)
+            //{
+            //    A[i]=int.Parse(Console.ReadLine());
 
-            }
-            for (int i = 0; i < A.Length; i++)
-            {
-                Console.Write($"[{A[i]}]");
-            }
-            Console.WriteLine("\n===============================");
-            for (int i = 0;i< B.GetLength(0);i++) {
-                for(int j=0;j<B.GetLength(1);j++)
-                {
-                    B[i,j] = random.Next(10)+ random.NextDouble();
-                    B[i, j]= Math.Round(B[i, j],2);
-                    Console.Write($"[{B[i,j]}]");
-                }
-                Console.WriteLine();
-            }
-            
-            Console.WriteLine($"");
+            //}
+            //for (int i = 0; i < A.Length; i++)
+            //{
+            //    Console.Write($"[{A[i]}]");
+            //}
+            //Console.WriteLine("\n===============================");
+            //for (int i = 0;i< B.GetLength(0);i++) {
+            //    for(int j=0;j<B.GetLength(1);j++)
+            //    {
+            //        B[i,j] = random.Next(10)+ random.NextDouble();
+            //        B[i, j]= Math.Round(B[i, j],2);
+            //        Console.Write($"[{B[i,j]}]");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //double tempMax=0;
 
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for(int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if (B[i,j] > tempMax)
+            //        {
+            //            tempMax = B[i,j];
+            //        }
+            //    }
+            //}
+            //double tmpAmax=Convert.ToDouble( A.Max());
+            //maximum=tmpAmax > tempMax ?tmpAmax : tempMax;
+            //double tempMin = maximum;
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if (B[i, j] < tempMin)
+            //        {
+            //            tempMin = B[i, j];
+            //        }
+            //    }
+            //}
+            //double tmpAminx = Convert.ToDouble(A.Min());
+            //minimum = tmpAminx < tempMin ? tempMin : tempMin;
+
+            //double tmpASumma = Convert.ToDouble(A.Sum());
+            //double tmpBSumma = 0;
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        tmpBSumma += B[i, j];
+            //    }
+            //}
+            //summa = tmpASumma + tmpBSumma;
+
+            //int aProduct = 1;
+            //for(int i = 0; i < A.Length; i++)
+            //{
+            //    aProduct *= A[i];
+            //}
+            //double tmpAproduct = Convert.ToDouble(aProduct);
+            //double tmpBproduct = 1;
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        tmpBproduct *= B[i, j];
+            //    }
+            //}
+            //product = tmpAproduct + tmpBproduct;
+            //product=Math.Round(product, 2);
+
+            //for (int i = 0; i < A.Length; i++)
+            //{
+            //    if ((i+1 )% 2 == 0)
+            //    {
+            //        pairAsumma += A[i];
+            //    }
+            //}
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if ((j+1)%2!=0)
+            //        {
+            //            oddBrowSumma += B[i, j];
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"Minimum: {minimum}\nMaximum: {maximum}\n" +
+            //    $"Summa: {summa}\nProduct: {product}\n"+
+            //    $"Summa of pair element in array A: {pairAsumma}\n"+
+            //    $"Summa of elements in odd rows in array B: {oddBrowSumma}");
+            #endregion
+            #region 4
+            //int row = 5;
+            //int col = 5;
+            //double[,] B = new double[row, col];
+            //int counter = 0;
+
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        B[i, j] = -100+random.Next(200) + random.NextDouble();
+            //        B[i, j] = Math.Round(B[i, j], 2);
+            //        Console.Write($"[{B[i, j]}]");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //double minimum = 0;
+            //int minRow = 0; int minCol=0;
+            //double maximum = 0;  
+            //int maxRow = 0;int maxCol = 0;
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if (B[i, j] < minimum)
+            //        {
+            //            minimum = B[i, j];
+            //            minRow = i;
+            //            minCol = j;
+            //        }
+            //        if (B[i, j] > maximum)
+            //        {
+            //            maximum = B[i, j];
+            //            maxRow = i;
+            //            maxCol = j;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"Minimum is: {minimum}, position[{minRow+1},{minCol+1}]"+
+            //    $"\nMaximum is: {maximum}, position[{maxRow+1},{maxCol+1}]");
+            //if((minRow > maxRow)||(minRow==maxRow&&minCol>maxCol))
+            //{
+            //    int tmpRow = minRow;
+            //    int tmpCol = minCol;
+            //    minRow = maxRow;
+            //    minCol = maxCol;
+            //    maxRow = tmpRow;
+            //    maxCol = tmpCol;
+            //}
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if (i == minRow && j > minCol)
+            //        {
+            //            counter++;
+            //        }
+            //        if ((i>minRow&&i<=maxRow))
+            //        {
+            //            counter++;
+            //        }
+
+            //        if(i==maxRow && j == maxCol)
+            //        {
+            //            break;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"There are {counter-1} elements between minimum and maximum.");
+            #endregion
+            #region 5
+            //int row = 5;
+            //int col = 5;
+            //int[,] B = new int[row, col];
+            //int counter = 0;
+
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        B[i, j] = -100 + random.Next(200);
+            //        Console.Write($"[{B[i, j]}]");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //int minimum = 0;
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if (B[i, j] < minimum)
+            //        {
+            //            minimum = B[i, j];
+            //        }
+            //    }
+            //}
+            //for (int i = 0; i < B.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < B.GetLength(1); j++)
+            //    {
+            //        if ((B[i, j] == minimum+5)|| (B[i, j] == minimum -5 ))
+            //        {
+            //            counter++;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"minimum is: {minimum}\n"+
+            //    $"There are {counter} elements, different by 5 from mainimum.");
+            #endregion
 
         }
     }
