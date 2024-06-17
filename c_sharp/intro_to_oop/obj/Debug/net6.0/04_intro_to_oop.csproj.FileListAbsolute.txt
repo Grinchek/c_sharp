@@ -1,0 +1,15 @@
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\bin\Debug\net6.0\04_intro_to_oop.exe
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\bin\Debug\net6.0\04_intro_to_oop.deps.json
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\bin\Debug\net6.0\04_intro_to_oop.runtimeconfig.json
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\bin\Debug\net6.0\04_intro_to_oop.dll
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\bin\Debug\net6.0\04_intro_to_oop.pdb
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.AssemblyInfo.cs
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.dll
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\refint\04_intro_to_oop.dll
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.pdb
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\04_intro_to_oop.genruntimeconfig.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\intro_to_oop\obj\Debug\net6.0\ref\04_intro_to_oop.dll
