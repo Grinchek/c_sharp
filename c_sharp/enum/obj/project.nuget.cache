@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "M0/X+uwi73dElsG7RDr0h7+DXhMADKGWNouScLAhp22Vs/F4GHhA8gXRupYT89VAma3cPyawp/vElSUOu1ceAw==",
+  "dgSpecHash": "JDveCkCVbHbfWSy1D0r36MCKadQHjQJWT05j4wA1//RH40z1ZgthF49zt0Rxxek+JdcVd3vv3qE0/HiIXqCV+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\enum\\02_enum.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\s_sharp\\c_sharp\\enum\\02_enum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

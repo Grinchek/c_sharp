@@ -53,7 +53,16 @@ namespace _c_sharp_
 
         static void Main(string[] args)
         {
-            
+            Freezer[] freezers = new Freezer[5];
+            freezers[0] = new Freezer();
+            freezers[1] = new Freezer(10);
+            freezers[2] = new Freezer(200,55,150,3,"white");
+            freezers[3] = new Freezer(180, 50, 130, 2, "grey");
+            freezers[4] = new Freezer(144, 52, 135, 3, "black");
+            for(int i = 0; i < freezers.Length; i++)
+            {
+                Console.WriteLine(freezers[i].ToString());
+            }
 
         }
     }
