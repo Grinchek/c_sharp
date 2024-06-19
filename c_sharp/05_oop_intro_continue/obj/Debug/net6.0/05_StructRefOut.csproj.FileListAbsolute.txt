@@ -1,0 +1,15 @@
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\bin\Debug\net6.0\05_StructRefOut.exe
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\bin\Debug\net6.0\05_StructRefOut.deps.json
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\bin\Debug\net6.0\05_StructRefOut.runtimeconfig.json
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\bin\Debug\net6.0\05_StructRefOut.dll
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\bin\Debug\net6.0\05_StructRefOut.pdb
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.AssemblyInfo.cs
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.dll
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\refint\05_StructRefOut.dll
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.pdb
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\05_StructRefOut.genruntimeconfig.cache
+C:\Users\dev\Desktop\s_sharp\c_sharp\05_oop_intro_continue\obj\Debug\net6.0\ref\05_StructRefOut.dll
