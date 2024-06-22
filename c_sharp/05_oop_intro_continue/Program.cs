@@ -58,27 +58,45 @@ namespace _c_sharp_
         public class Worker {
             public string Name { get; set; }
             public string Last_Name { get; set; }
-            private int salary;
-            private int age;
             public int Age
             {
-                get { return age; }
-                set { age = (value>18&&value<65)?value:throw new Exception("Incorrect age"); }
+                get { return Age; }
+                set { Age = (value>18&&value<65)?value:throw new Exception(); }
             }
             public int Salary
             {
-                get { return salary; }
-                set { salary = (value>0)?value:throw new Exception("Incorrect salary"); }
+                get { return Salary; }
+                set { Salary = (value>0)?value:throw new Exception("Incorrect salary"); }
             }
-            private DateTime hireDate;
-
             public DateTime HireDate
             {
-                get { return hireDate; }
-                set { hireDate = (value < DateTime.Now) ? value : throw new Exception("Incorrect hiredate"); }
+                get { return HireDate; }
+                set { HireDate = (value < DateTime.Now) ? value : throw new Exception("Incorrect hiredate"); }
                    
             }
+            public Worker()
+            {
+                Name = "Default";
+                Last_Name = "Default";
+                Age = 1;
+                Salary = 1;
+                HireDate = DateTime.Now;
+            }
+            public Worker(string name,string last_name,int age,int salary,DateTime hireDate)
+            {
+                Name = name;
+                Last_Name = last_name;
+                Age = age;
+                Salary =salary;
+                HireDate = hireDate;
 
+            }
+            public void ShowInfo()
+            {
+                Console.WriteLine($"Name: {Name}");
+                Console.WriteLine($"Last name: {Last_Name}");
+                Console.WriteLine($"Age: {Age}");
+            }
 
 
 
@@ -122,6 +140,23 @@ namespace _c_sharp_
             //Point p = new Point();
             //_2D_objects.Point point2 = new _2D_objects.Point();
             #endregion
+            Worker[] workers = new Worker[5];
+            for(int i = 0; i < workers.Length; i++)
+            {
+                Console.WriteLine("Enter name");
+                workers[i].Name = Console.ReadLine();
+                Console.WriteLine("Enter last name");
+                workers[i].Last_Name = Console.ReadLine();
+                Console.WriteLine("Enter age");
+                try { workers[i].Age = int.Parse(Console.ReadLine()); }
+                catch(Exception e) { Console.WriteLine("Incorrect age"); }
+                Console.WriteLine("Enter salary");
+                try { workers[i].Salary = int.Parse(Console.ReadLine()); }
+                catch (Exception e) { Console.WriteLine("Incorrect salary"); }
+                Console.WriteLine("Enter Hire date");
+                try { workers[i].HireDate = DateTime.Parse(Console.ReadLine()); }
+                catch (Exception e) { Console.WriteLine("Incorrect hire date"); }
+            }
         }
     }
 }

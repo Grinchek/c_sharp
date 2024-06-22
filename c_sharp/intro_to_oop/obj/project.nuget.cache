@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cH9Qt0UvDjzbfWYuYsb4kv/wFZyK+Y5Xz/1luH9Pq4fstNcQaOmkJ9YURbOi2evs7Hn9zuBgblwJCkJbOsbZQA==",
+  "dgSpecHash": "tn4pA1n7DkpmjnvoCzh0ad96RLLW8mU13Aiclcx3OWEMJElAEfn2JbkYIqQQ6mX76ZEc7qtOt/ckzK+9gd1hlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\s_sharp\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
