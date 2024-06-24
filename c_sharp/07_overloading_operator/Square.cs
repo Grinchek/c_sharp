@@ -104,9 +104,9 @@ namespace _07_overloading_operator
         {
             return s.Edge;
         }
-        public static implicit operator long(Square s)
+        public static implicit operator Rectangle(Square s)
         {
-            return s.Edge;
+            return new Rectangle(s.Edge,s.Edge+10);
         }
 
 

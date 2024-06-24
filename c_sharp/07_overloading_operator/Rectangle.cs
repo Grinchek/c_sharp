@@ -134,9 +134,9 @@ namespace _07_overloading_operator
         {
             return r.SideA+r.SideB;
         }
-        public static implicit operator int(Rectangle r)
+        public static implicit operator Square(Rectangle r)
         {
-            return r.SideA + r.SideB;
+            return new Square(r.SideA + r.SideB);
         }
     }
 }
