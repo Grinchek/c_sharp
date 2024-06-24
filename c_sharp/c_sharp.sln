@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_intro_to_oop", "intro_to
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_StructRefOut", "05_oop_intro_continue\05_StructRefOut.csproj", "{8A17A2B6-15EE-43CB-883D-9647084885DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_exceptions", "06_exceptions\06_exceptions.csproj", "{21A58B89-DEF3-41A1-A96D-7263494EADBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_exceptions", "06_exceptions\06_exceptions.csproj", "{21A58B89-DEF3-41A1-A96D-7263494EADBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_overloading_operator", "07_overloading_operator\07_overloading_operator.csproj", "{0D627D30-0CF1-4792-9787-F97037B79743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{21A58B89-DEF3-41A1-A96D-7263494EADBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21A58B89-DEF3-41A1-A96D-7263494EADBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21A58B89-DEF3-41A1-A96D-7263494EADBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D627D30-0CF1-4792-9787-F97037B79743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D627D30-0CF1-4792-9787-F97037B79743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D627D30-0CF1-4792-9787-F97037B79743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D627D30-0CF1-4792-9787-F97037B79743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
