@@ -33,7 +33,7 @@ namespace _07_overloading_operator
         }
         public override string ToString()
         {
-            return $"Side 1: {SideA}\nSide 2: {SideB}";
+            return $"Side 1 of rectangle: {SideA}\nSide 2 of rectangle: {SideB}";
         }
         public override bool Equals(object? obj)
         {
