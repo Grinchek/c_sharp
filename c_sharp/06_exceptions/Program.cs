@@ -51,7 +51,32 @@
             }
             public CreditCard(string name,string lastName,string cardNumber,string cvcCode,DateTime date)
             {
-
+                Name = name;
+                LastName = lastName;
+                try
+                {
+                    CardNumber = cardNumber;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                try
+                {
+                    CvcCode = cvcCode;
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                try
+                {
+                    ExpirationDate = date;
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
 
 
@@ -76,9 +101,62 @@
             //    Console.WriteLine(e.Message);
             //}
             // #2
+            //Console.WriteLine("Enter name:");
+            //string name=Console.ReadLine();
+            //Console.WriteLine("Enter last name:");
+            //string lastName=Console.ReadLine();
+            //Console.WriteLine("Enter card number:");
+            //string cardNumber=Console.ReadLine();
+            //Console.WriteLine("Enter cvc code:");
+            //string cvcCode=Console.ReadLine();
+            //Console.WriteLine("Enter expiration date:");
+            //DateTime date=DateTime.Parse(Console.ReadLine());
+            //try
+            //{
+            //    CreditCard card = new CreditCard(name,lastName,cardNumber,cvcCode,date);
+            //}
+            //catch(Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
+            Console.WriteLine("Enter a math expresion: ");
+            string input=Console.ReadLine();
+            try
+            {
+                string[] parts = input.Split('*');
+                int result = 1;
 
-
-
+                for (int i =0;i<parts.Length;i++)
+                {
+                    result *= int.Parse(parts[i]);
+                }
+                Console.WriteLine("Result: " + result);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Incorrect format.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Помилка: " + ex.Message);
+            }
         }
+
+        static int EvaluateExpression(string expr)
+        {
+            string[] parts = expr.Split('*');
+            int result = 1;
+
+            foreach (string part in parts)
+            {
+                result *= int.Parse(part.Trim());
+            }
+
+            return result;
+        
+
+
+
+    }
     }
 }
