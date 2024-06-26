@@ -6,34 +6,30 @@ using System.Threading.Tasks;
 
 namespace _05_oop_intro_continue
 {
-    internal class Worker
+    internal     class Worker
     {
         public string Name { get; set; }
         public string Last_Name { get; set; }
+        private int age;
         public int Age
         {
-            get { return Age; }
-            set { Age = (value > 18 && value < 65) ? value : throw new Exception(); }
+            get { return age; }
+            set { age = (value >= 18 && value < 65) ? value : throw new Exception(); }
         }
+        private int salary;
         public int Salary
         {
-            get { return Salary; }
-            set { Salary = (value > 0) ? value : throw new Exception("Incorrect salary"); }
+            get { return salary; }
+            set { salary = (value > 0) ? value : throw new Exception(); }
         }
+        private DateTime hireDate;
         public DateTime HireDate
         {
-            get { return HireDate; }
-            set { HireDate = (value < DateTime.Now) ? value : throw new Exception("Incorrect hiredate"); }
+            get { return hireDate; }
+            set { hireDate = (value <= DateTime.Now) ? value : throw new Exception(); }
 
         }
-        public Worker()
-        {
-            Name = "Default";
-            Last_Name = "Default";
-            Age = 1;
-            Salary = 1;
-            HireDate = DateTime.Now;
-        }
+        public Worker() : this("Default", "Default", 18, 1, DateTime.Now) { }
         public Worker(string name, string last_name, int age, int salary, DateTime hireDate)
         {
             Name = name;

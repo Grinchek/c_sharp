@@ -61,6 +61,7 @@ namespace _c_sharp_
 
         static void Main(string[] args)
         {
+
             #region classwork_main
             //_2D_Point p1= new _2D_Point(3,3);
             //p1.Print();
@@ -94,64 +95,85 @@ namespace _c_sharp_
             //Point p = new Point();
             //_2D_objects.Point point2 = new _2D_objects.Point();
             #endregion
-            //Worker[] workers = new Worker[5];
-            //for(int i = 0; i < workers.Length; i++)
-            //{
-            //    Console.WriteLine("Enter name");
-            //    workers[i].Name = Console.ReadLine();
-            //    Console.WriteLine("Enter last name");
-            //    workers[i].Last_Name = Console.ReadLine();
-            //    Console.WriteLine("Enter age");
-            //    try { workers[i].Age = int.Parse(Console.ReadLine()); }
-            //    catch(Exception e) { Console.WriteLine("Incorrect age"); }
-            //    Console.WriteLine("Enter salary");
-            //    try { workers[i].Salary = int.Parse(Console.ReadLine()); }
-            //    catch (Exception e) { Console.WriteLine("Incorrect salary"); }
-            //    Console.WriteLine("Enter Hire date");
-            //    try { workers[i].HireDate = DateTime.Parse(Console.ReadLine()); }
-            //    catch (Exception e) { Console.WriteLine("Incorrect hire date"); }
-            //}
-
-            // Calculator
-            Console.WriteLine("Enter first value: ");
-            int a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter second value: ");
-            int b = int.Parse(Console.ReadLine());
-            Calculator c = new Calculator();
-            Console.WriteLine("Select an operation(+,-,*,/):");
-            bool ex = false;
-            while (!ex)
+            Worker[] workers = new Worker[5] ;
+            for(int i = 0; i < workers.Length; i++)
             {
-                char op = char.Parse(Console.ReadLine());
-                switch (op)
+                workers[i] = new Worker();
+                Console.WriteLine("Enter name");
+                workers[i].Name = Console.ReadLine();
+                Console.WriteLine("Enter last name");
+                workers[i].Last_Name = Console.ReadLine();
+                Console.WriteLine("Enter age");
+                try
                 {
-                    case '+':
-                        c.Add(a, b);
-                        ex = true;
-                        break;
-                    case '-':
-                        c.Sub(a, b);
-                        break;
-                    case '*':
-                        c.Mul(a, b);
-                        ex = true;
-                        break;
-                    case '/':
-                        try
-                        {
-                            c.Div(a, b);
-                            ex = true;
-                        }
-                        catch (DivideByZeroException)
-                        {
-                            Console.WriteLine("Can not divide by zero.");
-                        }
-                        break;
-                    default:
-                        Console.WriteLine("Incorrect operation");
-                        break;
+                    workers[i].Age = int.Parse(Console.ReadLine());
+                }
+                catch (Exception )
+                { 
+                    Console.WriteLine("Incorrect age");
+                }
+                Console.WriteLine("Enter salary");
+                try 
+                { 
+                    workers[i].Salary = int.Parse(Console.ReadLine());
+                }
+                catch (Exception ) 
+                { 
+                    Console.WriteLine("Incorrect salary");
+                }
+                Console.WriteLine("Enter Hire date");
+                try 
+                {
+                    workers[i].HireDate = DateTime.Parse(Console.ReadLine());
+                }
+                catch (Exception) 
+                {
+                    Console.WriteLine("Incorrect hire date"); 
                 }
             }
+            
         }
+
+        // Calculator
+        //Console.WriteLine("Enter first value: ");
+        //int a = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Enter second value: ");
+        //int b = int.Parse(Console.ReadLine());
+        //Calculator c = new Calculator();
+        //Console.WriteLine("Select an operation(+,-,*,/):");
+        //bool ex = false;
+        //while (!ex)
+        //{
+        //    char op = char.Parse(Console.ReadLine());
+        //    switch (op)
+        //    {
+        //        case '+':
+        //            c.Add(a, b);
+        //            ex = true;
+        //            break;
+        //        case '-':
+        //            c.Sub(a, b);
+        //            break;
+        //        case '*':
+        //            c.Mul(a, b);
+        //            ex = true;
+        //            break;
+        //        case '/':
+        //            try
+        //            {
+        //                c.Div(a, b);
+        //                ex = true;
+        //            }
+        //            catch (DivideByZeroException)
+        //            {
+        //                Console.WriteLine("Can not divide by zero.");
+        //            }
+        //            break;
+        //        default:
+        //            Console.WriteLine("Incorrect operation");
+        //            break;
+        //    }
+        //}
+    
     }
 }
