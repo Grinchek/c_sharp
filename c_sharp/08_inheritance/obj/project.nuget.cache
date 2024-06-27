@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xQIessS1yYDFEtZZCZQFTOdTacl4UZIdGv35q8Kkj7/LPBhHeZLhJki0hz9dL0sZNBF5fa6dxxdPLM9u94jzYQ==",
+  "dgSpecHash": "XrVuwVqsRxfFFWoAU6P+BjRl7JOqlIRGLedM8v5FIwTBKEsli26rfc6ThiTfvBfDYkDaHX6hvI3/wWIhay/bjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Desktop\\s_sharp\\c_sharp\\08_inheritance\\08_inheritance.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\s_sharp\\c_sharp\\08_inheritance\\08_inheritance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
