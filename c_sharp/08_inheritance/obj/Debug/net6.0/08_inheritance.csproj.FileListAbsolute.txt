@@ -28,3 +28,18 @@ C:\Users\User\Desktop\s_sharp\c_sharp\08_inheritance\obj\Debug\net6.0\refint\08_
 C:\Users\User\Desktop\s_sharp\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.pdb
 C:\Users\User\Desktop\s_sharp\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.genruntimeconfig.cache
 C:\Users\User\Desktop\s_sharp\c_sharp\08_inheritance\obj\Debug\net6.0\ref\08_inheritance.dll
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\bin\Debug\net6.0\08_inheritance.exe
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\bin\Debug\net6.0\08_inheritance.deps.json
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\bin\Debug\net6.0\08_inheritance.runtimeconfig.json
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\bin\Debug\net6.0\08_inheritance.dll
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\bin\Debug\net6.0\08_inheritance.pdb
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.AssemblyInfo.cs
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.dll
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\refint\08_inheritance.dll
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.pdb
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\08_inheritance.genruntimeconfig.cache
+C:\Users\dev\Desktop\New folder\c_sharp\08_inheritance\obj\Debug\net6.0\ref\08_inheritance.dll

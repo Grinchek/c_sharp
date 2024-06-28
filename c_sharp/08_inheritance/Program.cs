@@ -14,6 +14,7 @@ namespace _c_sharp_
                 Circle circle = new Circle(22);
                 Ellipse ellipse = new Ellipse(12);
                 CompositFigure figure = new CompositFigure(triangle, square, romb, rectangle, trapezoid, circle, ellipse);
+                figure.ShowInfo();
 
             
             }

@@ -8,13 +8,19 @@ namespace _08_inheritance
 {
     internal class CompositFigure
     {
+        Figure[] figures;
         public CompositFigure(params Figure[] figures)
+        {
+            this.figures = figures;
+        }
+        public void ShowInfo()
         {
             foreach (var figure in figures)
             {
                 figure.GetArea();
+                figure.GetPerimeter();
             }
-
         }
+
     }
 }

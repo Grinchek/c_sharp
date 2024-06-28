@@ -20,7 +20,7 @@ namespace _08_inheritance
 
         public override void GetPerimeter()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
