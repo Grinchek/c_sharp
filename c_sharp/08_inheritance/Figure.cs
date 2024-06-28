@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08_inheritance
 {
-    internal class Figure
+    abstract class Figure
     {
 		private int sideA;
 
@@ -23,8 +23,8 @@ namespace _08_inheritance
         {
             SideA=side;
         }
-        public virtual void GetArea() { }
-		public virtual void GetPerimeter() { }
+        public abstract void GetArea();
+        public abstract void GetPerimeter();
 
 	}
 }

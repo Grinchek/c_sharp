@@ -14,6 +14,7 @@ namespace _08_inheritance
             {
                 figure.GetArea();
             }
+
         }
     }
 }

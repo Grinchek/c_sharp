@@ -17,5 +17,10 @@ namespace _08_inheritance
         {
             Console.WriteLine("Finding area of circle.");
         }
+
+        public override void GetPerimeter()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
