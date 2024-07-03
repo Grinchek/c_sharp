@@ -11,17 +11,20 @@ namespace _c_sharp_
             Movie h_k = new Movie("Harold & Kumar","Danny","Leiner",Genre.Comedy,"USA",2004,7.0);
             Movie starIsBorn = new Movie("A Star is Born", "Bradley", "Cooper", Genre.Drama, "USA", 2018,7.6);
             Cinema ukraina=new Cinema("Rivne",outa,donie_brasco,h_k,starIsBorn);
-            ukraina.Display();
-            Console.WriteLine("###############################");
-            ukraina.Sort();
-            ukraina.Display();
-            Console.WriteLine("###############################");
-            ukraina.Sort(new RatingComparer());
-            ukraina.Display();
-            Console.WriteLine("###############################");
-            ukraina.Sort(new YearComparer());
-            ukraina.Display();
-
+            //ukraina.Display();
+            //Console.WriteLine("###############################");
+            //ukraina.Sort();
+            //ukraina.Display();
+            //Console.WriteLine("###############################");
+            //ukraina.Sort(new RatingComparer());
+            //ukraina.Display();
+            //Console.WriteLine("###############################");
+            //ukraina.Sort(new YearComparer());
+            //ukraina.Display();
+            foreach(var movie in ukraina)
+            {
+                Console.WriteLine(movie);
+            }
 
         }
     }

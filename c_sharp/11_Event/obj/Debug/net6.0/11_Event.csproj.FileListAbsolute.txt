@@ -1,0 +1,15 @@
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\bin\Debug\net6.0\11_Event.exe
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\bin\Debug\net6.0\11_Event.deps.json
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\bin\Debug\net6.0\11_Event.runtimeconfig.json
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\bin\Debug\net6.0\11_Event.dll
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\bin\Debug\net6.0\11_Event.pdb
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.AssemblyInfo.cs
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.dll
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\refint\11_Event.dll
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.pdb
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\11_Event.genruntimeconfig.cache
+C:\Users\dev\Desktop\New folder\c_sharp\11_Event\obj\Debug\net6.0\ref\11_Event.dll
