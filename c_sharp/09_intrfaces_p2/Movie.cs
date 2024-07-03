@@ -13,7 +13,8 @@ namespace _09_intrfaces_p2
         Comedy,
         Horror,
         Adventure,
-        Drama
+        Drama,
+        Criminal
     }
     internal class Movie:ICloneable, IComparable<Movie>
     {
@@ -28,19 +29,30 @@ namespace _09_intrfaces_p2
             get { return year; }
             set { year = (value<2024&&value>1894)?value:throw   new Exception(); }
         }
+        private double rating;
+
+        public double Rating
+        {
+            get { return Math.Round(rating,2); }
+            set { rating = (value>0.0&&value<10.0)?Math.Round(value,2):throw new Exception(); }
+        }
+
         public Movie() { }
-        public Movie(string title, string name,string sourname, Genre genre, string country, int year)
+        public Movie(string title, string name,string sourname, Genre genre, string country, int year,double rating)
         {
             Title = title;
             Director = new Director(name, sourname);
             this.Genre = genre;
             Country = country;
             Year = year;
+            Rating = rating;
         }
         public override string ToString()
         {
-            return $"Title: {Title}\nDirector: {Director}" +
-                $"\n{this.Genre}\n{Country}\n{Year} y";
+            return $"-------------------------------\n" +
+                $"{Title}\n{Director}" +
+                $"\n{this.Genre}\n{Country}\n{Year} y\n" +
+                $"Ratings {Rating}";
         }
 
         public object Clone()
@@ -54,7 +66,7 @@ namespace _09_intrfaces_p2
 
         public int CompareTo(Movie? other)
         {
-            throw new NotImplementedException();
+            return this.Title.CompareTo(other.Title);
         }
     }
 }
