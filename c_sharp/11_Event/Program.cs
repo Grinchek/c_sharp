@@ -41,8 +41,28 @@ namespace _c_sharp_
             return "wrong key";
         
         }
-        
+        public static int IdenticalElementsCounter<T>(this T[] array)
+        {
+            int counter = 0;
+          for(int i = 0; i < array.Length; i++)
+            {
+                var tmp = array[i];
+                for(int j = 0; j < array.Length; j++)
+                {
+                    var tmp2 = array[j];
+                    if (i != j && tmp.Equals( tmp2))
+                    {
+                        counter++;
+                    }
+
+                }
             }
+            return counter;
+
+        }
+
+
+    }
 
             
 
@@ -58,6 +78,8 @@ namespace _c_sharp_
         Console.WriteLine(message.TurringMethod("swordfish"));
         Console.WriteLine("__________________________");
         Console.WriteLine(message.TurringMethod("anyKey"));
+        int[] arr = { 1, 2, 3 ,2,4,5,3};
+        Console.WriteLine(arr.IdenticalElementsCounter());
 
     }
     }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj": {}
+    "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj": {
+    "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj",
         "projectName": "04_intro_to_oop",
-        "projectPath": "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj",
-        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\intro_to_oop\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\intro_to_oop\\04_intro_to_oop.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\intro_to_oop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,12 +50,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

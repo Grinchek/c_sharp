@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\bin\Debug\net8.0\12_Events.exe
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\bin\Debug\net8.0\12_Events.deps.json
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\bin\Debug\net8.0\12_Events.runtimeconfig.json
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\bin\Debug\net8.0\12_Events.dll
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\bin\Debug\net8.0\12_Events.pdb
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.AssemblyInfo.cs
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.sourcelink.json
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.dll
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\refint\12_Events.dll
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.pdb
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\12_Events.genruntimeconfig.cache
+C:\Users\User\Desktop\Нова папка\c_sharp\12_Events\obj\Debug\net8.0\ref\12_Events.dll
