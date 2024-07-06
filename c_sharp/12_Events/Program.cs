@@ -1,10 +1,19 @@
-﻿namespace _c_sharp_
+﻿using _12_Events;
+
+namespace _c_sharp_
 {
+    
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            Exchange exchange = new Exchange();
+            exchange.Subscribing();
+            exchange.ExchangeSession();
+
+
+
+
 
         }
     }
