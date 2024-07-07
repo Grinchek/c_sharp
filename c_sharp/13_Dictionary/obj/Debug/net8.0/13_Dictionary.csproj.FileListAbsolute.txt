@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\bin\Debug\net8.0\13_Dictionary.exe
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\bin\Debug\net8.0\13_Dictionary.deps.json
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\bin\Debug\net8.0\13_Dictionary.runtimeconfig.json
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\bin\Debug\net8.0\13_Dictionary.dll
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\bin\Debug\net8.0\13_Dictionary.pdb
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.AssemblyInfo.cs
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.sourcelink.json
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.dll
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\refint\13_Dictionary.dll
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.pdb
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\13_Dictionary.genruntimeconfig.cache
+C:\Users\User\Desktop\Нова папка\c_sharp\13_Dictionary\obj\Debug\net8.0\ref\13_Dictionary.dll
