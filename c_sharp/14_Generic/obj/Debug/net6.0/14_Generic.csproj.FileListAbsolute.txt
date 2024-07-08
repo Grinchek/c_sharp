@@ -1,0 +1,15 @@
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\bin\Debug\net6.0\14_Generic.exe
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\bin\Debug\net6.0\14_Generic.deps.json
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\bin\Debug\net6.0\14_Generic.runtimeconfig.json
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\bin\Debug\net6.0\14_Generic.dll
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\bin\Debug\net6.0\14_Generic.pdb
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.AssemblyInfo.cs
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.dll
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\refint\14_Generic.dll
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.pdb
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\14_Generic.genruntimeconfig.cache
+C:\Users\dev\Desktop\New folder\c_sharp\14_Generic\obj\Debug\net6.0\ref\14_Generic.dll
