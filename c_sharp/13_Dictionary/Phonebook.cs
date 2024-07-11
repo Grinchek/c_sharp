@@ -10,7 +10,6 @@ namespace _13_Dictionary
     internal class Phonebook
     {
 		private Dictionary<string,string> myPhonebook;
-        //Phonebook() { myPhonebook = new Dictionary<string, string>(); }
         public Phonebook(string name,string number) {
             myPhonebook = new Dictionary<string, string>
             {
