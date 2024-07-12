@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xgaJObgsHEut1kvchWO3ybwT7x1FysNEOH9y0wnKQvX2CTiyJg95aLy/GOM4zuxvcfvZRD2jmMdKFOBzmV9zqQ==",
+  "dgSpecHash": "8/2ds42HrbESTc59PAErGD2U3Z+RoZLA2kdEB1gAy70t/Q94MSpMVMm2g8NOjcxrpiM2ojv4OU9S7nwpCT12OQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\string\\03_string.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\string\\03_string.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
