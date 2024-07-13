@@ -29,12 +29,20 @@ namespace _c_sharp_
         static void Main(string[] args)
         {
             int[] intArr = { 1, 2, 3, 4, 5, 6, };
-            MyStack<int> myStack=new MyStack<int>(intArr);
-            myStack.Push(10);
-            myStack.Display();
-            myStack.Pop();
-            myStack.Pop();
-            myStack.Display();
+            //MyStack<int> myStack=new MyStack<int>(intArr);
+            //myStack.Push(10);
+            //myStack.Display();
+            //myStack.Pop();
+            //myStack.Pop();
+            //myStack.Display();
+            MyQueue<int> queue = new MyQueue<int>(intArr);
+            queue.Display();
+            queue.Enqueue(100);
+            Console.WriteLine("After adding an item");
+            queue.Display();
+            queue.Dequeue();
+            Console.WriteLine("After extracting an item");
+            queue.Display();
 
 
 
