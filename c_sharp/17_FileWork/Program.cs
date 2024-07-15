@@ -114,37 +114,43 @@ namespace _c_sharp_
 
             #endregion
             #region sixth task
-            int counter = 0;
-            string content = File.ReadAllText(@"C:\Users\User\Desktop\Нова папка\c_sharp\17_FileWork\Text.txt");
-            // Checkig for sentences
+            //int counter = 0;
+            
+            //string content = File.ReadAllText(@"..\..\..\Text.txt");
+            //////Checkig for sentences
             //MatchCollection matchSentences = Regex.Matches(content, @"((?:(?(?=(e.g.|z.b.|Figs?\.|\d+\.\d))\2|[^.!?])+[.!?]))");
             //foreach (Match match in matchSentences) { counter++; }
             //Console.WriteLine($"There are {counter} sentences in text.");
 
-            // Checking for capital letters
+            ////// Checking for capital letters
+
             //MatchCollection matchCapitalLetters = Regex.Matches(content, @"[A-Z]");
             //foreach (Match match in matchCapitalLetters) { counter++; }
             //Console.WriteLine($"There are {counter} capital letters in text.");
 
 
-            // Checking for lowercase letter
+            //////Checking for lowercase letter
+
             //MatchCollection matchLowerCaseLetter = Regex.Matches(content, @"[a-z]");
             //foreach (Match match in matchLowerCaseLetter) { counter++; }
             //Console.WriteLine($"There are {counter} lowercase letters in text.");
 
-            // Checking for vowel letters
+            ////// Checking for vowel letters
+
             //MatchCollection matchVowerLetter = Regex.Matches(content, @"[aeiouAEIOU]");
             //foreach (Match match in matchVowerLetter) { counter++; }
             //Console.WriteLine($"There are {counter} vowel letters in text.");
 
 
-            // Checking for consonant letters
+            //////Checking for consonant letters
+
             //MatchCollection matchCosonantLetter = Regex.Matches(content, @"[!(aeiouAEIOU)]");
             //foreach (Match match in matchCosonantLetter) { counter++; }
             //Console.WriteLine($"There are {counter} consonant letters in text.");
 
 
-            // Checking for all digits
+            ////// Checking for all digits
+
             //MatchCollection matchDigits = Regex.Matches(content, @"\d");
             //counter = 0;
             //foreach (Match match in matchDigits) { counter++; }
