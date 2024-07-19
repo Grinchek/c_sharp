@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HmGB+DmuaaGtr95y0XctTE1l0GCFZu4+RXrAeTVpIhHWWugziLtXdK0SaUJkj26FJ5V6QttM4uFg+21YrF7dWw==",
+  "dgSpecHash": "79rChC4YVHxrXKQmHTwucf9UHP8I5UQ8k7RujHPbyGLyldJzccmOe6xEOu/yxiz1vAO39ZBl9gaGQSJU33BvuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Desktop\\New folder\\c_sharp\\06_exceptions\\06_exceptions.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Нова папка\\c_sharp\\06_exceptions\\06_exceptions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
