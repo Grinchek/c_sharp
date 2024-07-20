@@ -16,7 +16,10 @@ namespace _18_IntroToDesignPattern
         public void Configurate(PC pc)
         {
             pc.Box = Factory.CreateBox();
-            pc.
+            pc.Processor=Factory.CreateProcessor();
+            pc.MainBoard=Factory.CreateMainBoard();
+            pc.HDD=Factory.CreateHdd();
+            pc.Memory=Factory.CreateMemory();
         }
     }
 }
